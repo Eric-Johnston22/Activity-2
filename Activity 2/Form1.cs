@@ -1,16 +1,13 @@
 namespace Activity_2
 {
-    public partial class Form1 : Form
+    public partial class poundsToKilograms : Form
     {
-        public Form1()
+        public poundsToKilograms()
         {
             InitializeComponent();
         }
 
-        private void lbl_kilograms_Click(object sender, EventArgs e)
-        {
-         
-        }
+        
 
         private void btn_convert_Click(object sender, EventArgs e)
         {

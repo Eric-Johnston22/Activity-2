@@ -1,6 +1,6 @@
 ﻿namespace Activity_2
 {
-    partial class Form1
+    partial class poundsToKilograms
     {
         /// <summary>
         ///  Required designer variable.
@@ -56,7 +56,6 @@
             this.lbl_kilograms.Size = new System.Drawing.Size(270, 30);
             this.lbl_kilograms.TabIndex = 1;
             this.lbl_kilograms.Text = "Your weight in kilograms";
-            this.lbl_kilograms.Click += new System.EventHandler(this.lbl_kilograms_Click);
             // 
             // btn_convert
             // 
@@ -83,7 +82,7 @@
             this.tbx_kilograms.Size = new System.Drawing.Size(100, 22);
             this.tbx_kilograms.TabIndex = 4;
             // 
-            // Form1
+            // poundsToKilograms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,8 +96,8 @@
             this.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "poundsToKilograms";
+            this.Text = "Pounds to Kilograms";
             this.ResumeLayout(false);
             this.PerformLayout();
 
