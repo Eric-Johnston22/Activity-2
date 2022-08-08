@@ -14,11 +14,18 @@ namespace Activity_2
             double pounds; // Hold pounds
             double kilograms; // Hold kilograms
 
-            pounds = double.Parse(tbx_pounds.Text); // Get pounds from user entry
+            // Input validation, hold user input in pounds
+            if (!double.TryParse(tbx_pounds.Text, out pounds))
+            {
+                MessageBox.Show("Please enter a valid number");
+            }
+            else
+            {
+                kilograms = (pounds / 2.2046); // Convert pounds to kilograms
 
-            kilograms = (pounds / 2.2046); // Convert pounds to kilograms
+                tbx_kilograms.Text = kilograms.ToString(".000"); // Display kilograms and show 3 decimal places.
+            }
 
-            tbx_kilograms.Text = kilograms.ToString(".00"); // Display kilograms and show only 2 decimal places.
         }
     }
 }
